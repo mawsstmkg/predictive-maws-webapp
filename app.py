@@ -51,7 +51,7 @@ def main():
 			files = 'dataset.xlsx'
 			
 	try:
-		data = pd.read_excel(files)
+		data = pd.read_excel(files, engine="openpyxl")
 		
 		# Arah angin
 		sc_winddir = StandardScaler()
