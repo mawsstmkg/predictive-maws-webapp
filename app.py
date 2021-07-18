@@ -22,7 +22,7 @@ def sliding_window(data, window=5):
 def main():
 	
 	# Set page title, icon, layout wide (more used space in central area) and sidebar initial state
-	st.set_page_config(page_title="Predictive MAWS STMKG", page_icon='logo.png', layout="wide", initial_sidebar_state="expanded")
+	st.set_page_config(page_title="Predictive AWS STMKG", page_icon='logo.png', layout="wide", initial_sidebar_state="expanded")
 	df = pd.read_excel('data_pros2.xlsx')
 	
 	# Central area header
